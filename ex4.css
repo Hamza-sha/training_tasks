@@ -1,0 +1,99 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    nav {
+      background-color:black;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      opacity: 0.7;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+    }
+
+    nav ul li a:hover, nav ul li a.active {
+      background-color: red;
+      border-radius: 5px;
+    }
+
+    .top_background {
+      background: url("C:/Users/USER/Desktop/images/8.webp") no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .top_background h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .top_background p {
+      font-size: 1.2rem;
+    }
+
+    .middle {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: blanchedalmond;
+    }
+
+    .middle h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .dishes, .offers {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 40%;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      padding: 0 15px 15px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .offers .card {
+      padding: 20px;
+    }
+
+    .offers .card img {
+      display: none;
+    }

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.gray-bar {
+    background-color: gray;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+}
+
+.blue.large {
+    width: 300px;
+}
+
+.lightblue {
+    background-color: lightblue;
+    height: 100px;
+    width: 200px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 150px;
+}
+
+.orange-row .orange {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}

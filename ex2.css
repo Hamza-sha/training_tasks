@@ -1,0 +1,25 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.row1 {
+    background-color: #f2bcbc;
+}
+
+.row2 {
+    background-color: #fceeb1;
+}
+
+.row3 {
+    background-color: #bcdfff;
+}

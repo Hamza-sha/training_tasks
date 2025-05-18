@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+/* General button styles */
+.button {
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Large button styles with decreasing sizes */
+.large {
+  margin: 10px auto;
+  padding: 15px 0;
+}
+
+.large-1 {
+  width: 95%;
+  font-size: 24px;
+}
+
+.large-2 {
+  width: 90%;
+  font-size: 20px;
+}
+
+.large-3 {
+  width: 85%;
+  font-size: 18px;
+}
+
+/* Small buttons in a row (inline-block) */
+.small-buttons-row {
+  margin-top: 20px;
+}
+
+.small {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 10px;
+  text-align: center;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Different sizes for small buttons */
+.small-1 {
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.small-2 {
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.small-3 {
+  height: 35px;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.small-4 {
+  height: 30px;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+/* Button colors */
+.red {
+  background-color: #d9534f;
+}
+
+.orange {
+  background-color: #f0ad4e;
+}
+
+.green {
+  background-color: #5cb85c;
+}
+
+.gray {
+  background-color: #ccc;
+  color: black;
+}
