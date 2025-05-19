@@ -13,8 +13,8 @@ body {
 .row {
     display: flex;
     justify-content: center;
-    margin: 10px;
-    gap: 10px;
+    margin: 10px 0 10px 0;
+    gap: 5%;
 }
 
 .gray-bar {
@@ -26,27 +26,27 @@ body {
 .blue {
     background-color: blue;
     height: 100px;
-    width: 200px;
+    width: 70%;
 }
 
 .blue.large {
-    width: 300px;
+    width: 68%;
 }
 
 .lightblue {
     background-color: lightblue;
     height: 100px;
-    width: 200px;
+    width: 32%;
 }
 
 .yellow {
     background-color: yellow;
     height: 100px;
-    width: 150px;
+    width: 33%;
 }
 
 .orange-row .orange {
     background-color: orange;
     height: 100px;
-    width: 100px;
+    width: 25%;
 }
